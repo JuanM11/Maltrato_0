@@ -2028,6 +2028,10 @@
         "source": "C:\\Users\\Juan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\33354764c29bd320e6519496120c66f5\\res\\layout-watch-v20\\abc_alert_dialog_button_bar_material.xml"
     },
     {
+        "merged": "C:\\Users\\Juan\\Desktop\\Maltrato_0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_maps2.xml.flat",
+        "source": "C:\\Users\\Juan\\Desktop\\Maltrato_0\\app\\src\\main\\res\\layout\\activity_maps2.xml"
+    },
+    {
         "merged": "C:\\Users\\Juan\\Desktop\\Maltrato_0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_dark_focused.xml.flat",
         "source": "C:\\Users\\Juan\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.4.2.aar\\699f1d40a08887cf0a0ff5f856a7161d\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
     },

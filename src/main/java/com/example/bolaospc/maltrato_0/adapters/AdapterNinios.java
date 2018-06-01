@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 
 import com.example.bolaospc.maltrato_0.MapsActivity;
+import com.example.bolaospc.maltrato_0.MapsActivity2;
 import com.example.bolaospc.maltrato_0.R;
 import com.example.bolaospc.maltrato_0.models.Ninios;
 
@@ -90,10 +91,8 @@ private CardView card;
             {
 
                 public void onClick(View v) {
-                    Intent miIntent=new Intent(context,MapsActivity.class);
-                    miIntent.putExtra("lugar",1);
-
-                    context.startActivity(miIntent);
+                    Intent intent=new Intent (context,MapsActivity2.class);
+                    context.startActivity(intent);
                 }
             });
         }

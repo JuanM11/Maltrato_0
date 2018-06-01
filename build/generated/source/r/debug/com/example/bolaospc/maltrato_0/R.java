@@ -2302,7 +2302,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>for now only direct & barriers</td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>3</td><td></td></tr>
      * </table>
@@ -4387,49 +4387,50 @@ public final class R {
     public static final int acercade=0x7f0a001b;
     public static final int activity_main=0x7f0a001c;
     public static final int activity_maps=0x7f0a001d;
-    public static final int activity_splash_screen=0x7f0a001e;
-    public static final int app_bar_main=0x7f0a001f;
-    public static final int cardparejas=0x7f0a0020;
-    public static final int cardviolencianinios=0x7f0a0021;
-    public static final int content_main=0x7f0a0022;
-    public static final int design_bottom_navigation_item=0x7f0a0023;
-    public static final int design_bottom_sheet_dialog=0x7f0a0024;
-    public static final int design_layout_snackbar=0x7f0a0025;
-    public static final int design_layout_snackbar_include=0x7f0a0026;
-    public static final int design_layout_tab_icon=0x7f0a0027;
-    public static final int design_layout_tab_text=0x7f0a0028;
-    public static final int design_menu_item_action_area=0x7f0a0029;
-    public static final int design_navigation_item=0x7f0a002a;
-    public static final int design_navigation_item_header=0x7f0a002b;
-    public static final int design_navigation_item_separator=0x7f0a002c;
-    public static final int design_navigation_item_subheader=0x7f0a002d;
-    public static final int design_navigation_menu=0x7f0a002e;
-    public static final int design_navigation_menu_item=0x7f0a002f;
-    public static final int design_text_input_password_icon=0x7f0a0030;
-    public static final int fragment_mapa_lug=0x7f0a0031;
-    public static final int fragment_pareja=0x7f0a0032;
-    public static final int fragment_violencia_ninios=0x7f0a0033;
-    public static final int inicio_fragment=0x7f0a0034;
-    public static final int nav_header_main=0x7f0a0035;
-    public static final int notification_action=0x7f0a0036;
-    public static final int notification_action_tombstone=0x7f0a0037;
-    public static final int notification_media_action=0x7f0a0038;
-    public static final int notification_media_cancel_action=0x7f0a0039;
-    public static final int notification_template_big_media=0x7f0a003a;
-    public static final int notification_template_big_media_custom=0x7f0a003b;
-    public static final int notification_template_big_media_narrow=0x7f0a003c;
-    public static final int notification_template_big_media_narrow_custom=0x7f0a003d;
-    public static final int notification_template_custom_big=0x7f0a003e;
-    public static final int notification_template_icon_group=0x7f0a003f;
-    public static final int notification_template_lines_media=0x7f0a0040;
-    public static final int notification_template_media=0x7f0a0041;
-    public static final int notification_template_media_custom=0x7f0a0042;
-    public static final int notification_template_part_chronometer=0x7f0a0043;
-    public static final int notification_template_part_time=0x7f0a0044;
-    public static final int select_dialog_item_material=0x7f0a0045;
-    public static final int select_dialog_multichoice_material=0x7f0a0046;
-    public static final int select_dialog_singlechoice_material=0x7f0a0047;
-    public static final int support_simple_spinner_dropdown_item=0x7f0a0048;
+    public static final int activity_maps2=0x7f0a001e;
+    public static final int activity_splash_screen=0x7f0a001f;
+    public static final int app_bar_main=0x7f0a0020;
+    public static final int cardparejas=0x7f0a0021;
+    public static final int cardviolencianinios=0x7f0a0022;
+    public static final int content_main=0x7f0a0023;
+    public static final int design_bottom_navigation_item=0x7f0a0024;
+    public static final int design_bottom_sheet_dialog=0x7f0a0025;
+    public static final int design_layout_snackbar=0x7f0a0026;
+    public static final int design_layout_snackbar_include=0x7f0a0027;
+    public static final int design_layout_tab_icon=0x7f0a0028;
+    public static final int design_layout_tab_text=0x7f0a0029;
+    public static final int design_menu_item_action_area=0x7f0a002a;
+    public static final int design_navigation_item=0x7f0a002b;
+    public static final int design_navigation_item_header=0x7f0a002c;
+    public static final int design_navigation_item_separator=0x7f0a002d;
+    public static final int design_navigation_item_subheader=0x7f0a002e;
+    public static final int design_navigation_menu=0x7f0a002f;
+    public static final int design_navigation_menu_item=0x7f0a0030;
+    public static final int design_text_input_password_icon=0x7f0a0031;
+    public static final int fragment_mapa_lug=0x7f0a0032;
+    public static final int fragment_pareja=0x7f0a0033;
+    public static final int fragment_violencia_ninios=0x7f0a0034;
+    public static final int inicio_fragment=0x7f0a0035;
+    public static final int nav_header_main=0x7f0a0036;
+    public static final int notification_action=0x7f0a0037;
+    public static final int notification_action_tombstone=0x7f0a0038;
+    public static final int notification_media_action=0x7f0a0039;
+    public static final int notification_media_cancel_action=0x7f0a003a;
+    public static final int notification_template_big_media=0x7f0a003b;
+    public static final int notification_template_big_media_custom=0x7f0a003c;
+    public static final int notification_template_big_media_narrow=0x7f0a003d;
+    public static final int notification_template_big_media_narrow_custom=0x7f0a003e;
+    public static final int notification_template_custom_big=0x7f0a003f;
+    public static final int notification_template_icon_group=0x7f0a0040;
+    public static final int notification_template_lines_media=0x7f0a0041;
+    public static final int notification_template_media=0x7f0a0042;
+    public static final int notification_template_media_custom=0x7f0a0043;
+    public static final int notification_template_part_chronometer=0x7f0a0044;
+    public static final int notification_template_part_time=0x7f0a0045;
+    public static final int select_dialog_item_material=0x7f0a0046;
+    public static final int select_dialog_multichoice_material=0x7f0a0047;
+    public static final int select_dialog_singlechoice_material=0x7f0a0048;
+    public static final int support_simple_spinner_dropdown_item=0x7f0a0049;
   }
   public static final class menu {
     public static final int activity_main_drawer=0x7f0b0000;
@@ -4507,11 +4508,12 @@ public final class R {
     public static final int search_menu_title=0x7f0d003f;
     public static final int status_bar_notification_info_overflow=0x7f0d0040;
     public static final int title_activity_maps=0x7f0d0041;
-    public static final int txtMariana=0x7f0d0042;
-    public static final int txtMensaje=0x7f0d0043;
-    public static final int txting=0x7f0d0044;
-    public static final int txtinge=0x7f0d0045;
-    public static final int txtunimar=0x7f0d0046;
+    public static final int title_activity_maps2=0x7f0d0042;
+    public static final int txtMariana=0x7f0d0043;
+    public static final int txtMensaje=0x7f0d0044;
+    public static final int txting=0x7f0d0045;
+    public static final int txtinge=0x7f0d0046;
+    public static final int txtunimar=0x7f0d0047;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0e0000;
@@ -9821,7 +9823,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>for now only direct & barriers</td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>3</td><td></td></tr>
      * </table>

@@ -71,8 +71,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         Bundle parametros = this.getIntent().getExtras();
         String datos = parametros.getString("");
 
-        if(datos.equalsIgnoreCase(""))
-        {
             LatLng sydney = new LatLng(1.2095222,-77.2791655);
             //mMap.addMarker(new MarkerOptions().position(sydney).title("").snippet(""+"").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
             marcador = googleMap.addMarker(
@@ -80,8 +78,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
                             .title("")
             );
-            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, 15));
-        }
+            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, 20));
 
 /*        switch (lugar) {
             case 1:
