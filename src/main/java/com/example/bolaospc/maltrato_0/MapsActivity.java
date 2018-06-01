@@ -112,6 +112,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         }
     }
 
+
     public void actualizarubicacion(Location location) {
         if (location != null) {
             lat = location.getLatitude();
