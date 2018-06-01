@@ -68,7 +68,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-condensed"
-                        android:text="Ingeniero de Sistemas"
+                        android:text="@string/txting"
                         android:textColor="@android:color/darker_gray" />
 
                     <TextView
@@ -76,7 +76,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-condensed"
-                        android:text="Universidad Mariana"
+                        android:text="@string/txtunimar"
                         android:textColor="@android:color/darker_gray" />
 
                     <TextView
@@ -133,7 +133,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-condensed"
-                        android:text="Ingeniero de Sistemas"
+                        android:text="@string/txtinge"
                         android:textColor="@android:color/darker_gray" />
 
                     <TextView
@@ -141,7 +141,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-condensed"
-                        android:text="Universidad Mariana"
+                        android:text="@string/txtMariana"
                         android:textColor="@android:color/darker_gray" />
 
                     <TextView

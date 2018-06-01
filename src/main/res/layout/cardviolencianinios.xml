@@ -48,9 +48,10 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/tMecanismo"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Mecanismo causal de la lesión:"
+                        android:text="@string/tMecanismo"
                         android:textAlignment="viewStart"
                         android:textStyle="bold" />
 
@@ -71,7 +72,7 @@
                         android:layout_width="65dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="# Hombres:"
+                        android:text="@string/thombres"
                         android:textStyle="bold" />
 
                     <TextView
@@ -87,11 +88,11 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/textView19"
+                        android:id="@+id/thombre"
                         android:layout_width="66dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="% Hombres:"
+                        android:text="@string/thombre"
                         android:textStyle="bold" />
 
                     <TextView
@@ -108,11 +109,11 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/textView21"
+                        android:id="@+id/tmujeres"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="# Mujeres:"
+                        android:text="@string/tmujeres"
                         android:textStyle="bold" />
 
                     <TextView
@@ -129,11 +130,11 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/textView22"
+                        android:id="@+id/tmujer"
                         android:layout_width="62dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="% Mujeres: "
+                        android:text="@string/tmujer"
                         android:textStyle="bold" />
 
                     <TextView
@@ -148,11 +149,11 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/textView24"
+                        android:id="@+id/tTotal"
                         android:layout_width="8dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Total:"
+                        android:text="@string/tTotal"
                         android:textStyle="bold" />
 
                     <TextView
@@ -168,11 +169,11 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/textView26"
+                        android:id="@+id/tTotales"
                         android:layout_width="21dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="% Total:"
+                        android:text="@string/tTotales"
                         android:textStyle="bold" />
 
                     <TextView

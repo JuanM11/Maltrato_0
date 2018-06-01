@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Juan\\Desktop\\Maltrato_0\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nl\\values-nl.xml",
+            "outputFile": "C:\\Users\\Juan\\Desktop\\App_Maltrato\\Maltrato_0\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nl\\values-nl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Juan\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.4.2.aar\\6a392dd40f4b01ce11e59283f686f5f4\\res\\values-nl\\values.xml",

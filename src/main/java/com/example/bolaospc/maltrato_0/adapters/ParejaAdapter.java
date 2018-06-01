@@ -45,7 +45,7 @@ public class ParejaAdapter extends RecyclerView.Adapter<ParejaAdapter.ViewHolder
         holder.TV4.setText(p.getMujerCasos());
         holder.TV5.setText(p.getTotal());
         holder.TV6.setText(p.getTotalCasos());
-
+        holder.TV7.setText(p.getEstadoCivil());
 
     }
 
@@ -68,7 +68,7 @@ public class ParejaAdapter extends RecyclerView.Adapter<ParejaAdapter.ViewHolder
 
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
 
-        private TextView TV1, TV2, TV3, TV4, TV5, TV6;
+        private TextView TV1, TV2, TV3, TV4, TV5, TV6,TV7;
         private ImageButton ibtnParejas1;
 
         public ViewHolder(View itemView) {
@@ -80,6 +80,7 @@ public class ParejaAdapter extends RecyclerView.Adapter<ParejaAdapter.ViewHolder
             TV4 = (TextView) itemView.findViewById(R.id.txtPMujeres);
             TV5 = (TextView) itemView.findViewById(R.id.txtTotal);
             TV6 = (TextView) itemView.findViewById(R.id.txtPTotal);
+            TV7 = (TextView) itemView.findViewById(R.id.txtEstados);
 
             ibtnParejas1 = (ImageButton) itemView.findViewById(R.id.ibtnParejas);
 

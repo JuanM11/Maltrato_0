@@ -62,7 +62,6 @@ public class MainActivity extends AppCompatActivity
         FragmentManager fragmentManager=getSupportFragmentManager();
         fragmentManager.beginTransaction().replace(R.id.flContent, fragment).commit();
 
-        setTitle("Maltrato_0");
 
 
     }
@@ -134,8 +133,6 @@ public class MainActivity extends AppCompatActivity
             fragmentClass = ViolenciaNiniosFragment.class;
         } else if (id == R.id.nav_parejas) {
             fragmentClass = ParejaFragment.class;}
-        else if (id == R.id.nav_llamadas) {
-            fragmentClass = LamadasFragment.class;}
        else if (id == R.id.nav_acercade) {
             AlertDialog.Builder uBuilder2 = new AlertDialog.Builder(MainActivity.this);
             View aView2 = getLayoutInflater().inflate(R.layout.acercade, null);

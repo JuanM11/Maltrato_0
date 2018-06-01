@@ -5,8 +5,8 @@
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
 
+    <string name="title_activity_maps2">Map</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -16,8 +16,37 @@
     <string name="txtMensaje">La violencia es el último refugio del incompetente."\n"  "                                                               "Isaac Asimov</string>
     <string name="txtunimar">Universidad Mariana</string>
     <string name="txtMariana">Universidad Mariana</string>
+    <string name="nav_inicio">Inicio</string>
+    <string name="nav_niños">Niños</string>
+    <string name="nav_parejas">Parejas</string>
+    <string name="nav_llamadas">LLamadas Emergencia</string>
+    <string name="nav_acercade">Acerca de...</string>
+    <string name="nav_exit">Salir</string>
+    <string name="action_settings">Acerca de ...</string>
 
+
+    <string name="action_salir">Salir</string>
     <string name="txting">Ingeniero de Sistemas</string>
     <string name="txtinge">Ingeniero de Sistemas</string>
-    <string name="title_activity_maps2">Map</string>
+
+    <string name="textView">Niños</string>
+    <string name="textView2">Parejas</string>
+    <string name="textView5">Acerca de...</string>
+    <string name="textView7">Salir</string>
+
+    <string name="tMecanismo"> Mecanismo causal de la lesión:</string>
+    <string name="thombres"> # Hombres:</string>
+    <string name="thombre"> % Hombres:</string>
+    <string name="tmujeres"> # Mujeres:</string>
+    <string name="tmujer"> % Mujeres: </string>
+    <string name="tTotal"> Total: </string>
+    <string name="tTotales"> % Total: </string>
+
+    <string name="tEstado"> Estado Civil: </string>
+
+
 </resources>
+
+
+
+

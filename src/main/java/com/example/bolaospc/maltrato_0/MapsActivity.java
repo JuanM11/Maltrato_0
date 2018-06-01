@@ -72,7 +72,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         String datos = parametros.getString("");
 
             LatLng sydney = new LatLng(1.2095222,-77.2791655);
-            //mMap.addMarker(new MarkerOptions().position(sydney).title("").snippet(""+"").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
+
             marcador = googleMap.addMarker(
                     new MarkerOptions()
 
@@ -80,24 +80,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             );
             mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, 20));
 
-/*        switch (lugar) {
-            case 1:
 
-                mMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
-                UiSettings uiSettings = mMap.getUiSettings();
-                uiSettings.setZoomControlsEnabled(true);
-                // Add a marker in Sydney and move the camera
-                LatLng sydney = new LatLng(-34, 151);
-                mMap.addMarker(new MarkerOptions().position(sydney).title("").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
-                float zoomlevel = 16;
-                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, zoomlevel));
-                mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
-                if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-                    ub();
-                    return;
-                }
-                mMap.setMyLocationEnabled(true);
-        }*/
     }
     public void agregarmark(double lat, double lon) {
         LatLng coor = new LatLng(lat, lon);

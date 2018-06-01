@@ -7,4 +7,28 @@
 
     <string name="txting">Systems Engineer</string>
     <string name="txtinge">Systems Engineer</string>
+
+    <string name="nav_inicio">Home</string>
+    <string name="nav_niños">Children</string>
+    <string name="nav_parejas">Couples</string>
+    <string name="nav_llamadas">Emergency Calls</string>
+    <string name="nav_acercade">About ...</string>
+    <string name="nav_exit">Exit</string>
+    <string name="action_settings">About ...</string>
+    <string name="action_salir">Exit</string>
+
+    <string name="textView">Children</string>
+    <string name="textView2">Couples</string>
+    <string name="textView5">About ...</string>
+    <string name="textView7">Exit</string>
+
+    <string name="tMecanismo"> Causal mechanism of the injury:</string>
+    <string name="thombres"> # men:</string>
+    <string name="thombre"> % men:</string>
+    <string name="tmujeres"> # Women:</string>
+    <string name="tmujer"> % Women: </string>
+    <string name="tTotal"> Total: </string>
+    <string name="tTotales"> % Total: </string>
+
+    <string name="tEstado"> Civil status: </string>
 </resources>
