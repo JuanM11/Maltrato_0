@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_inicio"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_niños"
+            android:icon="@drawable/ic_pareja_de_ninos"
+            android:title="Niños" />
+        <item
+            android:id="@+id/nav_parejas"
+            android:icon="@drawable/ic_familia_de_pareja_heterosexual"
+            android:title="Parejas" />
+
+        <item
+            android:id="@+id/nav_llamadas"
+            android:icon="@drawable/ic_llamada_de_emergencia"
+            android:title="LLamadas Emergencia" />
+        <item
+            android:id="@+id/nav_acercade"
+            android:icon="@drawable/ic_perm_device_information_black_24dp"
+            android:title="Acerca de..." />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Salir" />
+    </group>
+
+
+
+</menu>
